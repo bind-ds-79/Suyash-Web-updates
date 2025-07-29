@@ -922,8 +922,8 @@ textarea:focus {
 	1.3 Default Spacing SCSS
 ---------------------------------*/
 .section-space {
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 @media only screen and (max-width: 991px) {
   .section-space {
@@ -5164,9 +5164,9 @@ html.lenis body {
 
 /*----------------------------------------*/
 /*  2.2 cursor
-/*----------------------------------------*/
+/* ---------------------------------------- */
 .rs-theme-settings-area {
-  position: fixed;
+  /* position: fixed;
   top: 50%;
   right: 0px;
   width: 240px;
@@ -5175,7 +5175,7 @@ html.lenis body {
   z-index: 991;
   border-bottom-right-radius: 4px;
   box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.1);
-  transition: all 0.4s 0s ease-out;
+  transition: all 0.4s 0s ease-out; */
 }
 .rs-theme-settings-area.settings-opened {
   transform: translateY(-50%) translateX(0%);
@@ -10959,7 +10959,7 @@ html.lenis body {
   z-index: 2;
 }
 .rs-footer-two.has-space {
-  padding-top: 230px;
+  /* padding-top: 230px; */
 }
 @media only screen and (max-width: 767px) {
   .rs-footer-two.has-space {
@@ -10967,7 +10967,7 @@ html.lenis body {
   }
 }
 .rs-footer-two.has-space > .rs-footer-top {
-  padding: 0px 0 90px;
+  /* padding: 0px 0 90px; */
 }
 @media only screen and (max-width: 767px) {
   .rs-footer-two.has-space > .rs-footer-top {
@@ -10975,7 +10975,7 @@ html.lenis body {
   }
 }
 .rs-footer-two .rs-footer-top {
-  padding: 70px 0 80px;
+  padding: 60x 0 10px
 }
 @media only screen and (max-width: 767px) {
   .rs-footer-two .rs-footer-top {
@@ -11060,7 +11060,8 @@ html.lenis body {
   -webkit-text-fill-color: rgba(168, 17, 17, 0);
 }
 .rs-footer-two .rs-footer-widget-title {
-  color: var(--rs-white);
+  /* color: var(--rs-white); */
+  color: #0d1b3e;
   margin-bottom:10px;
 }
 .rs-footer-two .rs-footer-widget-meta p {
@@ -11112,7 +11113,7 @@ html.lenis body {
   }
 }
 .rs-footer-two .footer-2-col-3 {
-  padding-inline-start: 40px;
+  /* padding-inline-start: 40px; */
 }
 @media only screen and (max-width: 1199px) {
   .rs-footer-two .footer-2-col-3 {
@@ -11282,7 +11283,8 @@ html.lenis body {
   color: var(--rs-theme-red);
 }
 .rs-copyright-one .rs-footer-copyright.has-theme-red p {
-  color: var(--rs-white);
+  /* color: var(--rs-white); */
+  color: black;
 }
 .rs-copyright-one .rs-footer-copyright.has-theme-blue a {
   color: var(--rs-white);
