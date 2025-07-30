@@ -496,57 +496,72 @@
 
         <!-- banner area start -->
         <section class="rs-banner-area rs-banner-four p-relative rs-swiper">
-            <div class="rs-banner-stroke-text">
-                <span>Metal</span>
-            </div>
+            <style>
+                /* Show image only on mobile */
+                @media (max-width: 768px) {
+                    .rs-banner-bg-thumb {
+                        display: none !important;
+                        
+                    }
+
+                    .rs-banner-mobile-img {
+                        display: block !important;
+                        width: 100%;
+                        height: auto;
+                        /* max-height: 400px; */
+                        object-fit: cover;
+                        padding: 0px !important;
+                    }
+
+                    .rs-banner-content {
+                        padding-top: 30px !important;
+                        padding-bottom: 30px !important;
+                        text-align: center;
+                    }
+
+                    .rs-banner-title {
+                        font-size: 26px !important;
+                    }
+
+                    .rs-banner-descrip p {
+                        font-size: 14px !important;
+                    }
+                }
+
+                /* Hide image on desktop/laptop */
+                .rs-banner-mobile-img {
+                    display: none;
+                }
+            </style>
+
             <div class="rs-banner-slider-wrapper">
                 <div class="swiper" data-clone-slides="false" data-loop="true" data-speed="2000" data-autoplay="true"
-                    data-dots-dynamic="false" data-hover-pause="true" data-effect="fade" data-delay="1000" data-item="1"
-                    data-item-xl="1" data-item-lg="1" data-item-md="1" data-item-sm="1" data-item-xs="1"
-                    data-item-mobile="1" data-margin="30" data-margin-xl="30" data-margin-lg="30" data-margin-md="30"
-                    data-margin-sm="30" data-margin-xs="30" data-margin-mobile="30">
+                    data-dots-dynamic="false" data-hover-pause="true" data-effect="fade" data-delay="1000"
+                    data-item="1">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="rs-banner-item-wrapper">
+                                <!-- ✅ Background for desktop/laptop -->
                                 <div class="rs-banner-bg-thumb" data-background="assets/images/bg/suyash-banner.png">
                                 </div>
+
+                                <!-- ✅ Image for mobile only -->
+                                <img src="assets/images/bg/suyash-banner.png" alt="Banner" class="rs-banner-mobile-img">
+
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-xxl-8 col-xl-10 col-lg-11">
                                             <div class="rs-banner-item">
-                                                <div class="rs-banner-content" style="padding-top: 70px; padding-bottom: 60px;">
-                                                    <!-- <span class="rs-banner-subtitle">
-                                                        Shaping the Future of Metals
-                                                    </span> -->
-                                                    <!-- <h1 class="rs-banner-title" style="color: #0d1b3e;">Ecotherm Energy Systems
-                                                    </h1> -->
-                                                    <!-- <div class="rs-banner-descrip">
-                                                        <p>We solve worldwide industrial every problem, the heart of
-                                                            global landscape
-                                                            the industry stands multidimensional was progress</p>
-                                                    </div> -->
-                                                    <div class="rs-banner-btn">
-                                                        <!-- <a class="rs-btn has-theme-red has-icon has-bg has-skew"
-                                                            href="#">Explore
-                                                            More
-                                                            <span class="icon-box">
-                                                                <svg class="icon-first"
-                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                    viewBox="0 0 32 32">
-                                                                    <path
-                                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                                                    </path>
-                                                                </svg>
-                                                                <svg class="icon-second"
-                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                    viewBox="0 0 32 32">
-                                                                    <path
-                                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                                                    </path>
-                                                                </svg>
-                                                            </span>
-                                                        </a> -->
-                                                    </div>
+                                                <div class="rs-banner-content"
+                                                    style="padding-top: 70px; padding-bottom: 60px;">
+                                                    <!-- Optional Content -->
+                                                    <!-- <h1 class="rs-banner-title">Ecotherm Energy Systems</h1>
+                                            <div class="rs-banner-descrip">
+                                                <p>We are Manufacturer, Supplier of Electrical Control Panels...</p>
+                                            </div> -->
+                                                    <!-- <div class="rs-banner-btn">
+                                                <a class="rs-btn has-theme-red has-icon has-bg has-skew" href="#">Explore More</a>
+                                            </div> -->
                                                 </div>
                                             </div>
                                         </div>
@@ -554,70 +569,61 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="swiper-slide">
+
+                        <!-- add second slider  strat-->
+                         div class="swiper-slide">
                             <div class="rs-banner-item-wrapper">
-                                <div class="rs-banner-bg-thumb" data-background="assets/images/bg/Suyash Web Banner 02.jpg">
+                                <!-- ✅ Background for desktop/laptop -->
+                                <div class="rs-banner-bg-thumb" data-background="assets/images/bg/suyash-banner.png">
                                 </div>
+
+                                <!-- ✅ Image for mobile only -->
+                                <img src="assets/images/bg/suyash-banner.png" alt="Banner" class="rs-banner-mobile-img">
+
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-xxl-8 col-xl-10 col-lg-11">
                                             <div class="rs-banner-item">
-                                                <div class="rs-banner-content">
-                                                    <span class="rs-banner-subtitle">
-                                                        Shaping the Future of Metals
-                                                    </span>
-                                                    <h1 class="rs-banner-title">Ecotherm Energy Systems</h1>
-                                                    <div class="rs-banner-descrip">
-                                                        <p>We are Manufacturer, Supplier of Electrical Control Panels,
-                                                            PLC Control Panels, Control Panel Accessories. Also, we are
-                                                            Authorized Channel partner for “SIEMENS LTD” Building
-                                                            technology - Combustion products. </p>
-                                                    </div>
-                                                    <div class="rs-banner-btn">
-                                                        <a class="rs-btn has-theme-red has-icon has-bg has-skew"
-                                                            href="#">Explore
-                                                            More
-                                                            <span class="icon-box">
-                                                                <svg class="icon-first"
-                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                    viewBox="0 0 32 32">
-                                                                    <path
-                                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                                                    </path>
-                                                                </svg>
-                                                                <svg class="icon-second"
-                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                    viewBox="0 0 32 32">
-                                                                    <path
-                                                                        d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                                                    </path>
-                                                                </svg>
-                                                            </span>
-                                                        </a>
-                                                    </div>
+                                                <div class="rs-banner-content"
+                                                    style="padding-top: 70px; padding-bottom: 60px;">
+                                                    <!-- Optional Content -->
+                                                    <!-- <h1 class="rs-banner-title">Ecotherm Energy Systems</h1>
+                                            <div class="rs-banner-descrip">
+                                                <p>We are Manufacturer, Supplier of Electrical Control Panels...</p>
+                                            </div> -->
+                                                    <!-- <div class="rs-banner-btn">
+                                                <a class="rs-btn has-theme-red has-icon has-bg has-skew" href="#">Explore More</a>
+                                            </div> -->
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
+                             <!-- add second slider end  -->
+                        <!-- Add more slides if needed -->
                     </div>
-                    <!-- If we need navigation buttons -->
+
+                    <!-- Navigation Arrows -->
                     <div class="rs-banner-navigation">
                         <button class="swiper-button-prev rs-swiper-btn has-theme-red"><i
                                 class="fa-regular fa-arrow-left"></i></button>
                         <button class="swiper-button-next rs-swiper-btn has-theme-red"><i
                                 class="fa-regular fa-arrow-right"></i></button>
                     </div>
-                    <!-- if we need pagination -->
+
+                    <!-- Mobile Pagination -->
                     <div class="rs-banner-pagination d-block d-md-none">
                         <div class="swiper-pagination rs-pagination has-theme-red"></div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- banner area end -->
+
+
 
 
 
@@ -626,40 +632,10 @@
             <div class="container">
                 <div class="row g-5">
                     <div class="col-xl-6 col-lg-6">
-                        <div class="rs-about-thumb-wrapper">
-                            <div class="rs-about-thumb-left-part">
-                                <div class="rs-about-thumb">
-                                    <img src="assets/images/gallery/plt1.png" alt="image">
-                                </div>
-                                <!-- <div class="rs-about-video-btn">
-                                    <div class="rs-rotate-btn">
-                                        <a href="#" class="rs-play-btn popup-video has-theme-red"><i
-                                                class="ri-play-fill"></i></a>
-                                        <div class="rs-circle-title gsap-rotate rs-text-circle-wrapper">
-                                            <div class="rs-text-circle" data-rotate-degree="13.33">
-                                                Watch Video - Watch Video -
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                            <div class="rs-about-thumb-right-part">
-                                <div class="rs-about-counter">
-                                    <div class="rs-counter-inner">
-                                        <div class="rs-counter-number-wrapper">
-                                            <span class="rs-counter-number odometer" data-count="10">00</span>
-                                            <span class="prefix">+</span>
-                                        </div>
-                                        <span class="rs-counter-title">Years of Experience
-                                        </span>
-                                    </div>
-                                </div>
-                                <div
-                                    class="rs-about-thumb has-large-thumb rs-image scroll_reveal reveal_left reveal-active">
-                                    <img decoding="async" src="assets/images/gallery/eptl1.png" alt="image">
-                                </div>
-                            </div>
+                        <div class="">
+                            <img decoding="async" src="assets/images/gallery/plt2.png" alt="image">
                         </div>
+
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="rs-about-wrapper">
@@ -670,9 +646,9 @@
                                     </span> -->
                                     <!-- <h2 class="rs-section-title rs-split-text-enable split-in-fade">Ecotherm Energy
                                         Systems</h2> -->
-                                    <h2 class="rs-section-title rs-split-text-enable split-in-fade">
+                                    <h4 class="rs-section-title rs-split-text-enable split-in-fade">
                                         Suyash Automation and Controls – SIEMENS Channel Partner
-                                    </h2>
+                                    </h4>
 
                                     <p class="descrip">Suyash Automation and Controls is a trusted Channel Partner and
                                         Authorized Distributor of SIEMENS for Combustion Control and Burner Management
@@ -896,7 +872,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="rs-feature-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="rs-feature-icon">
-                                <img src="https://www.clipartmax.com/png/middle/418-4181873_our-history-icon-png.png" alt="History Icon">
+                                <img src="https://www.clipartmax.com/png/middle/418-4181873_our-history-icon-png.png"
+                                    alt="History Icon">
                                 <!-- <i class="fas fa-history"></i> -->
                             </div>
                             <div class="rs-feature-content">
@@ -934,7 +911,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="rs-feature-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="rs-feature-icon">
-                                <img src="https://thumbs.dreamstime.com/b/mission-icon-business-goal-logo-modern-flat-design-concept-isolated-white-background-eps-vector-mission-icon-178123976.jpg">
+                                <img
+                                    src="https://thumbs.dreamstime.com/b/mission-icon-business-goal-logo-modern-flat-design-concept-isolated-white-background-eps-vector-mission-icon-178123976.jpg">
                                 <!-- <i class="fas fa-bullseye"></i> -->
                             </div>
                             <div class="rs-feature-content">
@@ -2546,7 +2524,8 @@
                                 <div class="map-section">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.3399912047493!2d73.80794431489357!3d18.50739738740537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfcf2b3e0f9d%3A0xf084f7742f2f01!2sKothrud%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1654347259058!5m2!1sen!2sin"
-                                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="300px">
+                                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                        width="100%" height="300px">
                                     </iframe>
                                 </div>
                             </div>
@@ -2556,13 +2535,13 @@
             </div>
 
             <!-- Copyright -->
-            <div class="rs-footer-copyright-area rs-copyright-one" style="background-color: #a1e9a1;">
+            <div class="rs-footer-copyright-area rs-copyright-one" style="background-color: #E2DFD2;">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-12">
                             <div class="rs-footer-copyright has-theme-red text-center">
-                                <p class="underline"> Designed by <a
-                                        href="https://www.netcom-india.com/" style="color:blue;">Netcom business
+                                <p class="underline"> Designed by <a href="https://www.netcom-india.com/"
+                                        style="color:blue;">Netcom business
                                         solution Pvt Ltd</a></p>
                             </div>
                         </div>
