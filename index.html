@@ -22,6 +22,12 @@
 <link rel="stylesheet" href="assets/css/vendor/remixicon.css">
 <link rel="stylesheet" href="assets/css/main.css">
 
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+ <!-- for vision  animation-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
 <body class="rs-smoother-yes rtl">
 
 
@@ -134,7 +140,7 @@
                         </div> -->
                         <nav id="mobile-menu" class="main-menu">
                             <ul class="multipage-menu">
-                                <li class="menu-item-has-children">
+                                <li class="">
                                     <a href="#">Home</a>
                                     <ul class="submenu last-children">
                                         <!-- <li class="menu-item-has-children has-arrow">
@@ -176,8 +182,8 @@
                                     </ul>
                                 </li>
                                 <!-- about menu -->
-                                <li class="menu-item-has-children">
-                                    <a href="#">About</a>
+                                <li class="">
+                                    <a href="#">About Us</a>
                                     <!-- <ul class="submenu last-children">
                                         <li>
                                             <a href="about.html">About Us 01</a>
@@ -280,7 +286,7 @@
                                         </li>
                                     </ul>
                                 </li> -->
-                                <li class="menu-item-has-children">
+                                <li class="">
                                     <a href="#">Contact</a>
                                     <!-- <ul class="submenu last-children">
                                         <li>
@@ -519,7 +525,7 @@
                                                     </div>
                                                     <div class="rs-banner-btn">
                                                         <a class="rs-btn has-theme-red has-icon has-bg has-skew"
-                                                            href="contact.html">Explore
+                                                            href="#">Explore
                                                             More
                                                             <span class="icon-box">
                                                                 <svg class="icon-first"
@@ -567,7 +573,7 @@
                                                     </div>
                                                     <div class="rs-banner-btn">
                                                         <a class="rs-btn has-theme-red has-icon has-bg has-skew"
-                                                            href="contact.html">Explore
+                                                            href="#">Explore
                                                             More
                                                             <span class="icon-box">
                                                                 <svg class="icon-first"
@@ -611,54 +617,7 @@
         </section>
         <!-- banner area end -->
 
-        <!-- feature area start -->
-        <div class="rs-feature-area rs-feature-three">
-            <div class="rs-feature-bg-thumb" data-background="assets/images/bg/features-bg-01.png"></div>
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="rs-feature-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                            <div class="rs-feature-icon">
-                                <img src="assets/images/icon/feature-icon-04.png" alt="image">
-                            </div>
-                            <div class="rs-feature-content">
-                                <h5 class="rs-feature-title">Best manufacturing service provider</h5>
-                                <div class="rs-feature-descrip">
-                                    <p>Industry stands multinational was progress driving.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="rs-feature-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                            <div class="rs-feature-icon">
-                                <img src="assets/images/icon/feature-icon-05.png" alt="image">
-                            </div>
-                            <div class="rs-feature-content">
-                                <h5 class="rs-feature-title">We are always building quality industry</h5>
-                                <div class="rs-feature-descrip">
-                                    <p>Industry stands multinational was progress driving.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="rs-feature-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
-                            <div class="rs-feature-icon">
-                                <img src="assets/images/icon/feature-icon-06.png" alt="image">
-                            </div>
-                            <div class="rs-feature-content">
-                                <h5 class="rs-feature-title">Techniques such as crushing, grinding</h5>
-                                <div class="rs-feature-descrip">
-                                    <p>Industry stands multinational was progress driving.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- feature area end -->
+        
 
         <!-- about area start -->
         <section class="rs-about-area section-space rs-about-four">
@@ -704,14 +663,22 @@
                         <div class="rs-about-wrapper">
                             <div class="rs-about-content-wrapper">
                                 <div class="rs-section-title-wrapper">
-                                    <span class="rs-section-subtitle  has-bg-field justify-content-start">
+                                    <!-- <span class="rs-section-subtitle  has-bg-field justify-content-start">
                                         About Us
-                                    </span>
-                                    <h2 class="rs-section-title rs-split-text-enable split-in-fade">Ecotherm Energy
-                                        Systems</h2>
-                                    <p class="descrip">To be an Industrial Automation Company continuously striving
-                                        toward cost-effective solutions with honesty and integrity for the success of
-                                        all stakeholders</p>
+                                    </span> -->
+                                    <!-- <h2 class="rs-section-title rs-split-text-enable split-in-fade">Ecotherm Energy
+                                        Systems</h2> -->
+                                    <h2 class="rs-section-title rs-split-text-enable split-in-fade">
+                                        Suyash Automation and Controls – SIEMENS Channel Partner
+                                    </h2>
+
+                                    <p class="descrip">Suyash Automation and Controls is a trusted Channel Partner and
+                                        Authorized Distributor of SIEMENS for Combustion Control and Burner Management
+                                        products. Established in 2018 and based in Chikhali, Pune, we specialize in the
+                                        design and manufacturing of high-quality Electrical and PLC Control Panels. With
+                                        a dedicated team of engineers and a state-of-the-art facility, we ensure
+                                        cost-effective, reliable, and efficient automation solutions backed by strong
+                                        customer support and timely delivery</p>
                                 </div>
                                 <div class="rs-about-tab">
                                     <ul class="nav nav-pills" id="pills-tab" role="tablist">
@@ -743,11 +710,13 @@
                                             aria-labelledby="pills-item-one-tab" tabindex="0">
                                             <div class="rs-about-tab-content">
                                                 <p>
-                                                    The company was incorporated in the year 2018. We have significantly
-                                                    grown both organically and with cooperation from leading integrators
-                                                    within the region.
+                                                    Established in 2018 in Chikhali, Pune, Maharashtra.
+                                                    Started as a channel partner and authorized distributor for Siemens
+                                                    combustion products.
+                                                    Grew rapidly with strong engineering, manufacturing capabilities,
+                                                    and trusted partnerships.
                                                     .</p>
-                                                <div class="rs-about-feature-list">
+                                                <!-- <div class="rs-about-feature-list">
                                                     <div class="rs-list-item has-theme-red">
                                                         <ul>
                                                             <li>
@@ -760,16 +729,19 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="pills-item-two" role="tabpanel"
                                             aria-labelledby="pills-item-two-tab" tabindex="0">
                                             <div class="rs-about-tab-content">
-                                                <p>To be an Industrial Automation Company continuously striving toward
-                                                    cost-effective solutions with honesty and integrity for the success
-                                                    of all stakeholders.</p>
-                                                <div class="rs-about-feature-list">
+                                                <p>To provide reliable and cost-effective industrial automation
+                                                    solutions.
+                                                    We prioritize honesty, integrity, and stakeholder satisfaction in
+                                                    every project.
+                                                    Our goal is to empower industries through innovation and expert
+                                                    engineering</p>
+                                                <!-- <div class="rs-about-feature-list">
                                                     <div class="rs-list-item has-theme-red">
                                                         <ul>
                                                             <li>
@@ -782,19 +754,21 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="pills-item-three" role="tabpanel"
                                             aria-labelledby="pills-item-three-tab" tabindex="0">
                                             <div class="rs-about-tab-content">
-                                                <p>Welcome to Industrie, a leading industry innovator with a rich
-                                                    history of
-                                                    excellence
-                                                    with a passion make also for precision we have been empowering
-                                                    industries and
-                                                    driving progress for</p>
-                                                <div class="rs-about-feature-list">
+                                                <p>To become a leading name in automation and control panel
+                                                    manufacturing across India.
+                                                    We envision sustainable growth through advanced technology and
+                                                    customer trust.
+                                                    Committed to setting industry standards in quality, efficiency, and
+                                                    service.
+
+                                                </p>
+                                                <!-- <div class="rs-about-feature-list">
                                                     <div class="rs-list-item has-theme-red">
                                                         <ul>
                                                             <li>
@@ -807,7 +781,7 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -849,8 +823,117 @@
         </section>
         <!-- about area end -->
 
+
+        <!-- feature area start -->
+        <!-- <div class="rs-feature-area rs-feature-three">
+            <div class="rs-feature-bg-thumb" data-background="assets/images/bg/features-bg-01.png"></div>
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="rs-feature-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                            <div class="rs-feature-icon">
+                                <img src="assets/images/icon/feature-icon-04.png" alt="image">
+                            </div>
+                            <div class="rs-feature-content">
+                                <h5 class="rs-feature-title">Best manufacturing service provider</h5>
+                                <div class="rs-feature-descrip">
+                                    <p>Industry stands multinational was progress driving.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="rs-feature-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                            <div class="rs-feature-icon">
+                                <img src="assets/images/icon/feature-icon-05.png" alt="image">
+                            </div>
+                            <div class="rs-feature-content">
+                                <h5 class="rs-feature-title">We are always building quality industry</h5>
+                                <div class="rs-feature-descrip">
+                                    <p>Industry stands multinational was progress driving.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="rs-feature-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                            <div class="rs-feature-icon">
+                                <img src="assets/images/icon/feature-icon-06.png" alt="image">
+                            </div>
+                            <div class="rs-feature-content">
+                                <h5 class="rs-feature-title">Techniques such as crushing, grinding</h5>
+                                <div class="rs-feature-descrip">
+                                    <p>Industry stands multinational was progress driving.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        
+        <!-- feature area end -->
+
+
+        <!-- feature area start -->
+<div class="rs-feature-area rs-feature-three">
+    <div class="rs-feature-bg-thumb" data-background="assets/images/bg/features-bg-01.png"></div>
+    <div class="container">
+        <div class="row g-5">
+            <!-- Company History -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="rs-feature-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                    <div class="rs-feature-icon">
+                        <img src="assets/images/icon/feature-icon-history.png" alt="Company History Icon">
+                    </div>
+                    <div class="rs-feature-content">
+                        <h5 class="rs-feature-title">Our Legacy</h5>
+                        <div class="rs-feature-descrip">
+                            <p>Established with a commitment to innovation, Ecotherm Energy Systems has become a trusted name in the industrial heating sector, offering custom-engineered burner systems and energy-efficient thermal solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vision -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="rs-feature-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                    <div class="rs-feature-icon">
+                        <img src="assets/images/icon/feature-icon-vision.png" alt="Vision Icon">
+                    </div>
+                    <div class="rs-feature-content">
+                        <h5 class="rs-feature-title">Our Vision</h5>
+                        <div class="rs-feature-descrip">
+                            <p>To be a global leader in sustainable thermal technologies by driving innovation, energy efficiency, and industrial excellence for a cleaner future.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mission -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="rs-feature-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                    <div class="rs-feature-icon">
+                        <img src="assets/images/icon/feature-icon-mission.png" alt="Mission Icon">
+                    </div>
+                    <div class="rs-feature-content">
+                        <h5 class="rs-feature-title">Our Mission</h5>
+                        <div class="rs-feature-descrip">
+                            <p>To deliver high-performance burner and thermal systems tailored to our clients’ needs, ensuring reliability, safety, and energy savings through cutting-edge engineering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- feature area end -->
+
+
         <!-- services area start -->
-        <section class="rs-servcies-area rs-services-four">
+        <!-- <section class="rs-servcies-area rs-services-four">
             <div class="rs-services-bg-thumb" data-background="assets/images/bg/services-bg-02.png"></div>
             <div class="container">
                 <div class="row">
@@ -969,8 +1052,7 @@
                                     </div>
                                 </div>
                                 <div class="rs-services-btn">
-                                    <a class="rs-btn has-theme-red has-icon has-bg has-skew"
-                                        href="services.html">Explore More
+                                    <a class="rs-btn has-theme-red has-icon has-bg has-skew" href="#">Explore More
                                         <span class="icon-box">
                                             <svg class="icon-first" xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 32 32">
@@ -992,7 +1074,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- services area end -->
 
         <!-- category area start -->
@@ -1560,174 +1642,189 @@
         <!-- progress area end -->
 
         <!-- portfolio area start -->
+        <!-- <section class="rs-portfolio-area rs-portfolio-three section-space-bottom">
+            <div class="container">
+                <div class="row justify-content-center g-5">
+                    <div class="col-xl-8 col-lg-8">
+                        <div class="rs-section-title-wrapper section-title-space text-center">
+                            <span class="rs-section-subtitle has-bg-field">
+                               Our Products
+                            </span>
+                            <h2 class="rs-section-title rs-split-text-enable split-in-fade">
+                                Quality Control Solutions & Siemens Burner Controls
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5"> -->
+                    <!-- Product 1 -->
+                    <!-- <div class="col-xl-4 col-lg-4">
+                        <div class="rs-portfolio-item">
+                            <div class="rs-portfolio-bg-thumb"
+                                style="background-image: url('assets/images/gallery/plt1.png'); background-size: cover; background-position: center;">
+                            </div>
+                            <div class="rs-portfolio-content">
+                                <div class="rs-portfolio-tag">
+                                    <a href="#">SIEMENS</a>
+                                </div>
+                                <h3 class="rs-portfolio-title underline has-white">
+                                    <a href="#">Burner Control Systems</a>
+                                </h3>
+                                <p class="text-white">Advanced safety and combustion solutions using SIEMENS burner
+                                    controllers, ideal for industrial heating applications.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Product 2 -->
+                    <!-- <div class="col-xl-4 col-lg-4">
+                        <div class="rs-portfolio-item">
+                            <div class="rs-portfolio-bg-thumb"
+                                style="background-image: url('assets/images/gallery/eptl1.png'); background-size: cover; background-position: center;">
+                            </div>
+                            <div class="rs-portfolio-content">
+                                <div class="rs-portfolio-tag">
+                                    <a href="#">Control Panels</a>
+                                </div>
+                                <h3 class="rs-portfolio-title underline has-white">
+                                    <a href="#">PLC & MCC Panels</a>
+                                </h3>
+                                <p class="text-white">High-quality MCC, Relay-Based & PLC Control Panels designed for
+                                    efficient industrial automation and process control.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Product 3 -->
+                    <!-- <div class="col-xl-4 col-lg-4">
+                        <div class="rs-portfolio-item">
+                            <div class="rs-portfolio-bg-thumb"
+                                style="background-image: url('assets/images/gallery/plt1.png'); background-size: cover; background-position: center;">
+                            </div>
+                            <div class="rs-portfolio-content">
+                                <div class="rs-portfolio-tag">
+                                    <a href="#">Accessories</a>
+                                </div>
+                                <h3 class="rs-portfolio-title underline has-white">
+                                    <a href="#">Panel Accessories</a>
+                                </h3>
+                                <p class="text-white">Essential accessories and components for custom-built control
+                                    panels, enhancing functionality and safety.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+                <!-- </div>
+            </div>
+        </section> -->
+
+        <!-- here make it slider formate start -->
         <section class="rs-portfolio-area rs-portfolio-three section-space-bottom">
             <div class="container">
                 <div class="row justify-content-center g-5">
                     <div class="col-xl-8 col-lg-8">
                         <div class="rs-section-title-wrapper section-title-space text-center">
-                            <span class="rs-section-subtitle  has-bg-field">
-                                our Portfolio
-                            </span>
-                            <h2 class="rs-section-title rs-split-text-enable split-in-fade">Recently Completed Project
+                            <h2 class="rs-section-title rs-split-text-enable split-in-fade">
+                                Our Product Range
                             </h2>
                         </div>
                     </div>
                 </div>
-                <div class="row g-5">
-                    <div class="col-xl-8 col-lg-8">
-                        <div class="rs-portfolio-item">
-                            <div class="rs-portfolio-bg-thumb"
-                                data-background="assets/images/portfolio/portfolio-thumb-11.png"></div>
-                            <div class="rs-portfolio-content">
-                                <div class="rs-portfolio-tag">
-                                    <a href="portfolio-details.html"> Metallurgy</a>
+
+                <!-- Swiper Slider -->
+                <div class="swiper myProductSwiper">
+                    <div class="swiper-wrapper">
+                        <!-- Product 1 -->
+                        <div class="swiper-slide">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-bg-thumb"
+                                    style="background-image: url('assets/images/gallery/plt1.png'); background-size: cover; background-position: center;">
                                 </div>
-                                <h3 class="rs-portfolio-title underline has-white">
-                                    <a href="portfolio-details.html">Technological Solutions <br> For Factories</a>
-                                </h3>
+                                <div class="rs-portfolio-content">
+                                    <div class="rs-portfolio-tag"><a href="#">SIEMENS</a></div>
+                                    <h3 class="rs-portfolio-title underline has-white"><a href="#">Burner Control
+                                            Systems</a></h3>
+                                    <p class="text-white">Reliable combustion control with Siemens burner controllers.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="rs-portfolio-btn">
-                                <a class="rs-btn has-theme-red has-circle has-icon" href="portfolio-details.html">
-                                    <span class="icon-box">
-                                        <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                        <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                    </span>
-                                </a>
+                        </div>
+
+                        <!-- Product 2 -->
+                        <div class="swiper-slide">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-bg-thumb"
+                                    style="background-image: url('assets/images/gallery/eptl1.png'); background-size: cover; background-position: center;">
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <div class="rs-portfolio-tag"><a href="#">Panels</a></div>
+                                    <h3 class="rs-portfolio-title underline has-white"><a href="#">PLC & MCC Panels</a>
+                                    </h3>
+                                    <p class="text-white">Efficient automation with custom-built MCC, PLC & Relay
+                                        panels.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 3 -->
+                        <div class="swiper-slide">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-bg-thumb"
+                                    style="background-image: url('assets/images/gallery/plt1.png'); background-size: cover; background-position: center;">
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <div class="rs-portfolio-tag"><a href="#">Accessories</a></div>
+                                    <h3 class="rs-portfolio-title underline has-white"><a href="#">Panel Accessories</a>
+                                    </h3>
+                                    <p class="text-white">Supporting components for complete panel installations.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 4 -->
+                        <div class="swiper-slide">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-bg-thumb"
+                                    style="background-image: url('assets/images/gallery/plt1.png'); background-size: cover; background-position: center;">
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <div class="rs-portfolio-tag"><a href="#">Automation</a></div>
+                                    <h3 class="rs-portfolio-title underline has-white"><a href="#">Combustion Control
+                                            Panels</a></h3>
+                                    <p class="text-white">Custom-designed panels for precise combustion and process
+                                        automation.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 5 -->
+                        <div class="swiper-slide">
+                            <div class="rs-portfolio-item">
+                                <div class="rs-portfolio-bg-thumb"
+                                    style="background-image: url('assets/images/gallery/plt1.png'); background-size: cover; background-position: center;">
+                                </div>
+                                <div class="rs-portfolio-content">
+                                    <div class="rs-portfolio-tag"><a href="#">Energy</a></div>
+                                    <h3 class="rs-portfolio-title underline has-white"><a href="#">Energy Saving
+                                            Solutions</a></h3>
+                                    <p class="text-white">Control systems that help industries achieve higher energy
+                                        efficiency.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="rs-portfolio-item">
-                            <div class="rs-portfolio-bg-thumb"
-                                data-background="assets/images/portfolio/portfolio-thumb-12.png"></div>
-                            <div class="rs-portfolio-content">
-                                <div class="rs-portfolio-tag">
-                                    <a href="portfolio-details.html"> Metallurgy</a>
-                                </div>
-                                <h3 class="rs-portfolio-title underline has-white">
-                                    <a href="portfolio-details.html">Robotic Automation in Metal Forming</a>
-                                </h3>
-                            </div>
-                            <div class="rs-portfolio-btn">
-                                <a class="rs-btn has-theme-red has-circle has-icon" href="portfolio-details.html">
-                                    <span class="icon-box">
-                                        <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                        <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="rs-portfolio-item">
-                            <div class="rs-portfolio-bg-thumb"
-                                data-background="assets/images/portfolio/portfolio-thumb-13.png"></div>
-                            <div class="rs-portfolio-content">
-                                <div class="rs-portfolio-tag">
-                                    <a href="portfolio-details.html"> Metallurgy</a>
-                                </div>
-                                <h3 class="rs-portfolio-title underline has-white">
-                                    <a href="portfolio-details.html"> Intelligent Sensors for Real-time Monitoring</a>
-                                </h3>
-                            </div>
-                            <div class="rs-portfolio-btn">
-                                <a class="rs-btn has-theme-red has-circle has-icon" href="portfolio-details.html">
-                                    <span class="icon-box">
-                                        <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                        <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="rs-portfolio-item">
-                            <div class="rs-portfolio-bg-thumb"
-                                data-background="assets/images/portfolio/portfolio-thumb-14.png"></div>
-                            <div class="rs-portfolio-content">
-                                <div class="rs-portfolio-tag">
-                                    <a href="portfolio-details.html"> Metallurgy</a>
-                                </div>
-                                <h3 class="rs-portfolio-title underline has-white">
-                                    <a href="portfolio-details.html">Improving Energy Efficiency in Metal Extraction</a>
-                                </h3>
-                            </div>
-                            <div class="rs-portfolio-btn">
-                                <a class="rs-btn has-theme-red has-circle has-icon" href="portfolio-details.html">
-                                    <span class="icon-box">
-                                        <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                        <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <div class="rs-portfolio-item">
-                            <div class="rs-portfolio-bg-thumb"
-                                data-background="assets/images/portfolio/portfolio-thumb-15.png"></div>
-                            <div class="rs-portfolio-content">
-                                <div class="rs-portfolio-tag">
-                                    <a href="portfolio-details.html"> Metallurgy</a>
-                                </div>
-                                <h3 class="rs-portfolio-title underline has-white">
-                                    <a href="portfolio-details.html"> Novel Metal Casting Techniques for Complex</a>
-                                </h3>
-                            </div>
-                            <div class="rs-portfolio-btn">
-                                <a class="rs-btn has-theme-red has-circle has-icon" href="portfolio-details.html">
-                                    <span class="icon-box">
-                                        <svg class="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                        <svg class="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path
-                                                d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                            </path>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
+                    <!-- Navigation Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </section>
-        <!-- portfolio area end -->
+
+
+        <!-- here make it slider formate End -->
+
 
         <!-- testimonial area start -->
         <section class="rs-testimonial-area rs-testimonial-three rs-swiper has-bg-blue">
@@ -2274,7 +2371,8 @@
                         <div class="col-xl-12">
                             <div class="rs-footer-copyright has-theme-red text-center">
                                 <p class="underline">© <span id="year">2025</span> Industrie. Designed by <a
-                                        href="https://www.netcom-india.com/">Netcom business solution Pvt Ltd</a></p>
+                                        href="https://www.netcom-india.com/" style="color: black;">Netcom business
+                                        solution Pvt Ltd</a></p>
                             </div>
                         </div>
                     </div>
@@ -2294,7 +2392,7 @@
         }
 
         .footer-vertical-links li a {
-            color: #0d1b3e;
+            color: rgb(41, 37, 37);
             text-decoration: none;
             transition: color 0.3s ease;
         }
@@ -2359,6 +2457,38 @@
     <script src="assets/js/vendor/purecounter.js"></script>
     <script src="assets/js/vendor/odometer.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+    <script>
+        var swiper = new Swiper(".myProductSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+
+
 </body>
 
 </html>
